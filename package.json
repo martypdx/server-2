@@ -1,0 +1,37 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Good-Cents/server.git"
+  },
+  "author": "Keeley Hammond, Ivy Patton, Chris Wallace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Good-Cents/server/issues"
+  },
+  "homepage": "https://github.com/Good-Cents/server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "envvar": "^1.1.0",
+    "express": "^4.15.3",
+    "jsonwebtoken-promisified": "^1.0.3",
+    "moment": "^2.18.1",
+    "mongodb": "^2.2.28",
+    "mongoose": "^4.10.5",
+    "morgan": "^1.8.2",
+    "plaid": "^2.0.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
