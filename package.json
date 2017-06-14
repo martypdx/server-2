@@ -33,5 +33,5 @@
     "plaid": "^2.0.4"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "Back-end server for Good Cents API"
 }
